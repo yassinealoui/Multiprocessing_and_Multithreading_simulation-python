@@ -17,13 +17,6 @@ Section 2 : MULTITHREADING (constraints of MULTITHREADING in python (GIL))
 
 
 
-
-
-
-
-
-
-
 #section5 : multiprocessing
 """
 summary :
@@ -61,7 +54,6 @@ def getNextColor(color):
 
 def setWindowsPosition(x,y):
     os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (x, y)
-
 
 
 
